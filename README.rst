@@ -18,6 +18,12 @@ Install Flask::
 
     pip install flask
 
+Install lxml::
+    pip install lxml
+    
+Install requests::
+    pip install requests    
+
 Run the server::
 
     python hello.py
