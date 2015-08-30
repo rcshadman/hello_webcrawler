@@ -1,0 +1,48 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.map"></script>
+
+
+	<head>
+		{% if website %}
+		<body style="background-color:grey">
+			<div class="">
+				<div class="container-fluid" style="background-color:lightblue;padding:20px"class="page-header">
+					<h1 class="text-center"><small><i>Images from url: </i><b>{{website}}</b></small></h1>
+					<h1 class="text-center"><small><b>{{number}}</b>  <i>Images found at </i> <b>Level {{depth}}</b></small></h1>
+				</div>		
+				<div class="well">
+					{% for image in images %}
+					<a href="#"><img src="{{ image }}" alt="" style="max-height:140px;max-width:140px" class="img-rounded"></a>
+					{% endfor %}	
+				</div>
+			</div>
+		</body>
+		{% elif title %}
+		<body style="background-color:grey">
+			<div class="">
+				<div class="container-fluid" style="background-color:lightblue;padding:20px"class="page-header">
+					<h1 class="text-center"><b>{{title}}</b></h1>
+				</div>
+				<form class="form-horizontal" action="./crawl" method="POST">
+					<div class="form-group row" style="margin-top:30px">
+						<div class="col-md-offset-3 col-md-3"><h4><label for="urlsearch" ><i>Website to be Scraped</i></label></h4></div>
+						<div class=" col-md-4"><input type="search" class="form-control" id="url" placeholder="http://www.google.com" name="website" value="http://www."></div>
+					</div>	
+					<div class="form-group row" style="margin-top:30px">
+						<div class="col-md-offset-3 col-md-3"><h4><label for="depth" ><i>Scrape Level</i></label></h4></div>
+						<div class=" col-md-4"><input type="tel" class="form-control" name="level" id="depth" placeholder="0"></div>
+					</div>
+					<div class="form-group row" style="margin-top:30px">
+						<div class="col-md-offset-6 col-md-4"><button style="color:black" type="submit" class="btn btn-warning">Start Crawling</button></div>
+					</div>	
+				</form>		
+			</div>
+		</body>
+		{% else %}
+		{% endif %}
+
+		</html>
