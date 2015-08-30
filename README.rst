@@ -39,17 +39,17 @@ Demo
   :width: 200px
   :scale: 80%
 
-..images:: https://cloud.githubusercontent.com/assets/7407419/9565984/06fff2f4-4f0e-11e5-9d7c-26816c1e7969.png
+..image:: https://cloud.githubusercontent.com/assets/7407419/9565984/06fff2f4-4f0e-11e5-9d7c-26816c1e7969.png
   :height: 100px
   :width: 200px
   :scale: 80%
   
-..images:: https://cloud.githubusercontent.com/assets/7407419/9565985/07012f70-4f0e-11e5-90a4-3d24c6466e7b.png
+..image:: https://cloud.githubusercontent.com/assets/7407419/9565985/07012f70-4f0e-11e5-90a4-3d24c6466e7b.png
   :height: 100px
   :width: 200px
   :scale: 80%
   
-  ..images:: https://cloud.githubusercontent.com/assets/7407419/9565983/06ff0416-4f0e-11e5-9f12-7116f3cf3a0e.png
+..image:: https://cloud.githubusercontent.com/assets/7407419/9565983/06ff0416-4f0e-11e5-9f12-7116f3cf3a0e.png
   :height: 100px
   :width: 200px
   :scale: 80%
