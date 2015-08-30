@@ -34,7 +34,7 @@ To run the unit tests::
 Demo
 ===================
 
-..images:: https://cloud.githubusercontent.com/assets/7407419/9565982/06f6aa8c-4f0e-11e5-96b3-c8167b57f9ad.png
+..image:: https://cloud.githubusercontent.com/assets/7407419/9565982/06f6aa8c-4f0e-11e5-96b3-c8167b57f9ad.png
   :height: 100px
   :width: 200px
   :scale: 80%
