@@ -34,6 +34,7 @@ To run the unit tests::
 Demo
 ===================
 
+![alt tag](https://cloud.githubusercontent.com/assets/7407419/9565982/06f6aa8c-4f0e-11e5-96b3-c8167b57f9ad.png "Description goes here")
 https://cloud.githubusercontent.com/assets/7407419/9565982/06f6aa8c-4f0e-11e5-96b3-c8167b57f9ad.png
 https://cloud.githubusercontent.com/assets/7407419/9565984/06fff2f4-4f0e-11e5-9d7c-26816c1e7969.png
 https://cloud.githubusercontent.com/assets/7407419/9565985/07012f70-4f0e-11e5-90a4-3d24c6466e7b.png
