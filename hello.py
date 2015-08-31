@@ -1,7 +1,7 @@
 # Standard BFS Approach to travel through the link and extract images , level by level
-# How it work: -scrape method makes a new buffer set of scraped urls and images at each level
-# 				,then adds it to the model_image Set(Set handles duplicates) and updates visited links.
-# 			   -scraper_url crawls through the link and scrapes urls and images
+# How it work: -scrape method makes a new buffer set of scraped urls and images at each level ,then
+# 		 adds it to the model_image Set(Set handles duplicates) and updates visited links.
+# 	       -scraper_url crawls through the link and scrapes urls and images
 # Dependencies : lxml , requests
 
 
